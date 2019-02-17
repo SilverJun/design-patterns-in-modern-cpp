@@ -1,3 +1,6 @@
+모던 C++ 디자인 패턴 (원서: 'Design Patterns in Modern C++' by Dmitri Nesteruk) 한국어판의 예제 코드 입니다. 
+
+
 # Apress Source Code
 
 This repository accompanies [*Design Patterns in Modern C++*](http://www.apress.com/9781484236024) by Dmitri Nesteruk (Apress, 2018).
