@@ -21,7 +21,7 @@
     
     C:\boost\bin.v2, boost, doc, libs, more, stage, status, ...
     
-#4: 아래의 파일을 더블 클릭하여 MSVS를 띄우고 코드를 보고, 빌드/시험해 봅니다.
+#4: 아래의 파일을 더블 클릭하여 MSVS를 띄우고 코드를 살펴보고, 빌드, 시험해 봅니다.
 
     C:\design-patterns-in-modern-cpp\CppDesignPatterns.sln 
 
