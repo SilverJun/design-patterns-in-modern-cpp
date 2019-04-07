@@ -64,8 +64,8 @@ public:
 class DummyDatabase : public Database
 {
   std::map<std::string, int> capitals;
-public:
 
+public:
 
   DummyDatabase()
   {
@@ -79,8 +79,9 @@ public:
   }
 };
 
-struct SingletonRecordFinder
+class  SingletonRecordFinder
 {
+public:
   int total_population(std::vector<std::string> names)
   {
     int result = 0;
@@ -90,8 +91,9 @@ struct SingletonRecordFinder
   }
 };
 
-struct ConfigurableRecordFinder
+class ConfigurableRecordFinder
 {
+public:
   explicit ConfigurableRecordFinder(Database& db)
     : db{db}
   {

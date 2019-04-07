@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp2.1</TargetFrameworks>
+    <AssemblyName>PingPongService</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <PackageId>PingPongService</PackageId>
+    <ApplicationIcon />
+    <StartupObject></StartupObject>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\**\*;node_modules" />
+    <EmbeddedResource Remove="wwwroot\**\*;node_modules" />
+    <None Update="**.user;**.vspscc">
+      <CopyToPublishDirectory>Never</CopyToPublishDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.2.7" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />    
+  </ItemGroup>
+
+  <ItemGroup Condition=" '$(TargetFramework)' == 'dnx451' ">
+    <Reference Include="System" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+
+</Project>

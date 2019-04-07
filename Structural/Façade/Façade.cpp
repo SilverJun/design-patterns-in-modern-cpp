@@ -1,16 +1,15 @@
-#include "StdAfx.h"
-#include "Window.h"
-#include "TextBuffer.h"
+
+#include <boost/lexical_cast.hpp> 
 #include "Console.h"
 using namespace std;
 
 int main(int ac, char* av[])
 {
-  // create a single window and show it
+  // 윈도를 하나 만들고 보여준다
   //Window window("Test", 2560, 1440);
   //Window window("Test", 1280, 720);
 
-  //// let's try to create a viewport + buffer
+  //// viewport + buffer를 만들어보자.
   //auto buffer = make_shared<TextBuffer>(40, 40);
   //buffer->add_string("One");
   //buffer->add_string(string("Two"));
